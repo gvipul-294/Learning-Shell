@@ -1,3 +1,3 @@
 # Learning-Shell
-Basic programs using Linux Commands
-I implemented some basic programs in C to learn the basic operating system concepts
+
+I implemented some basic programs using Linux Commands in C to learn the basic operating system concepts
