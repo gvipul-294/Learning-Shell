@@ -24,11 +24,13 @@ int main()
      FILE *fptr;
 
     char filename[15];
+    printf("enter file name");
+    cin>>filename;
     char ch;
     //printf("Enter the filename to be opened \n");
     //scanf("%s", );
     /*  open the file for reading */
-    fptr = fopen("abc.txt", "r");
+    fptr = fopen(filename, "r");
     if (fptr == NULL)
     {
         printf("Cannot open file \n");
